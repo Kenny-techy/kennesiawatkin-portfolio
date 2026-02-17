@@ -750,3 +750,14 @@ footer {
 .nav-links.active {
   right: 0;
 }
+
+.design-section {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-section a {
+  color: #ff4a9e;
+}
