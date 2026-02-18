@@ -398,6 +398,15 @@ nav .logo {
   color: #ff4a9e;
 }
 
+.play-game-btn {
+  background-image: linear-gradient(90deg, #ff6ec4, #7873f5);
+}
+
+.CTA-text {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+}
+
 /* See More Section */
 
 .see-more-section h2 {
@@ -682,6 +691,19 @@ footer {
   display: none;
 }
 
+/* Link to Figma Design Section  */
+
+.design-section {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-section a {
+  color: #ff4a9e;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -749,15 +771,4 @@ footer {
 
 .nav-links.active {
   right: 0;
-}
-
-.design-section {
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.design-section a {
-  color: #ff4a9e;
 }
