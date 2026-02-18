@@ -14,11 +14,13 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  text-wrap: nowrap;
 }
 
 button {
@@ -29,6 +31,7 @@ button {
   color: inherit;
   font-size: inherit;
   transition: .2s;
+  text-wrap: nowrap;
 }
 
 h1,
@@ -412,7 +415,6 @@ nav .logo {
 .see-more-section h2 {
   font-weight: 500;
   margin-bottom: 0;
-  text-wrap: nowrap;
 }
 
 .see-more-section {
@@ -765,6 +767,10 @@ footer {
 
   .menu-icon {
     display: block;
+  }
+
+  .see-more-section .container {
+    width: 100%;
   }
 }
 
